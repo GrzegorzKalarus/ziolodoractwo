@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Kontakt - Zioło-Doradca</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav>
+      <ul>
+        <li><a href="index.html">Strona główna</a></li>
+        <li><a href="omnie.html">O mnie</a></li>
+        <li><a href="cennik.html">Cennik</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+    </nav>
+    <header>
+      <img src="logo.png" alt="Zioło-Doradca" class="logo">
+    </header>
+    <main>
+      <h2>Formularz kontaktowy</h2>
+      <form action="https://formsubmit.co/pluczy10@gmail.com" method="POST">
+        <input type="hidden" name="_next" value="https://https://grzegorzkalarus.github.io/ziolodoractwo/thanks.html">
+        <input type="hidden" name="_captcha" value="false">
+
+        <label for="name">Imię:</label>
+        <input type="text" id="name" name="Imię" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="Email" required>
+
+        <label for="service">Wybierz usługę:</label>
+        <select id="service" name="Usługa">
+          <option value="Konsultacja ziołowa">Konsultacja ziołowa – 100 zł</option>
+          <option value="Indywidualna receptura">Indywidualna receptura – 50 zł</option>
+          <option value="Ziołowy plan terapii">Ziołowy plan terapii – 150 zł</option>
+          <option value="Inna">Inna</option>
+        </select>
+
+        <label for="message">Wiadomość:</label>
+        <textarea id="message" name="Treść wiadomości" rows="5" required></textarea>
+
+        <button type="submit">Wyślij</button>
+      </form>
+    </main>
+    <footer>
+      <p>&copy; 2025 Zioło-Doradca</p>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
