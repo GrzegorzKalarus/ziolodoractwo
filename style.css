@@ -75,20 +75,21 @@ main {
   display: flex;
    align-items: flex-start;
   gap: 30px;
-  flex-wrap: wrap; /* Żeby się dobrze układało na telefonie */
+  flex-wrap: wrap;
 }
 
 @media (max-width: 768px) {
   .about-photo {
-    display: none;
+    display: none !important;
   }
 }
+
 
 .about-photo {
   max-width: 240px;
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  margin-top: 40px; /* <- dostosuj w razie potrzeby */
+  margin-top: 40px;
 }
 
 
@@ -140,7 +141,7 @@ button:hover {
 a {
   color: white;
 }
-/* Animacje */
+
 @keyframes fadeIn {
   from { opacity: 0; }
   to { opacity: 1; }
