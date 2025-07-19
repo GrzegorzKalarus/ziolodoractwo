@@ -8,13 +8,15 @@ html, body {
   margin: 0;
   padding: 0;
   background-color: #ffffff;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 nav {
   background-color: #000000;
   padding: 15px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 900;
+  font-size: large;
 }
 
 nav ul {
@@ -63,7 +65,12 @@ main {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
   animation: fadeInUp 0.8s ease-in-out;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.2rem;
+  line-height: 2;
+  text-align: justify;
 }
+
 
 footer {
   background-color: #000000;
@@ -104,7 +111,9 @@ button {
 button:hover {
   background-color: #17861c;
 }
-
+a {
+  color: white;
+}
 /* Animacje */
 @keyframes fadeIn {
   from { opacity: 0; }
