@@ -78,6 +78,12 @@ main {
   flex-wrap: wrap; /* Żeby się dobrze układało na telefonie */
 }
 
+@media (max-width: 768px) {
+  .about-photo {
+    display: none;
+  }
+}
+
 .about-photo {
   max-width: 240px;
   border-radius: 8px;
