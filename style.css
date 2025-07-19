@@ -71,6 +71,26 @@ main {
   text-align: justify;
 }
 
+.about-container {
+  display: flex;
+   align-items: flex-start;
+  gap: 30px;
+  flex-wrap: wrap; /* Żeby się dobrze układało na telefonie */
+}
+
+.about-photo {
+  max-width: 240px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  margin-top: 40px; /* <- dostosuj w razie potrzeby */
+}
+
+
+
+.about-text {
+  flex: 1;
+  min-width: 300px;
+}
 
 footer {
   background-color: #000000;
