@@ -84,8 +84,14 @@ main {
   }
 }
 @media print {
-      button, nav, footer {
+      button, nav, footer, title, head {
         display: none;
+      }
+      body{
+        font-size: 12px
+      }
+      main{
+        font-size: 12px
       }
     }
 
