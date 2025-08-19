@@ -35,7 +35,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #c8e6c9;
+  color: #ffd4dd;
 }
 
 header {
@@ -130,7 +130,7 @@ input, textarea {
 
 button {
   padding: 10px 20px;
-  background-color: #433508;
+  background-color: #374F59;
   color: white;
   font-weight: bold;
   border: none;
@@ -140,7 +140,7 @@ button {
 }
 
 button:hover {
-  background-color: #17861c;
+  background-color: #567a8a;
 }
 a {
   color: white;
@@ -166,8 +166,8 @@ a {
 .back-button {
   display: inline-block;
   margin-top: 30px;
-  background-color: #81c784;
-  color: #1b5e20;
+  background-color: #374F59;
+  color: #ffffff;
   text-decoration: none;
   padding: 10px 20px;
   font-weight: bold;
@@ -176,7 +176,7 @@ a {
 }
 
 .back-button:hover {
-  background-color: #66bb6a;
+  background-color: #567a8a;
 }
 
 

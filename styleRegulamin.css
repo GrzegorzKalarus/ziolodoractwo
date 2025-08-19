@@ -35,7 +35,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #c8e6c9;
+  color: #ffd4dd;
 }
 
 header {
@@ -135,18 +135,19 @@ input, textarea {
 }
 
 button {
-  padding: 10px 20px;
-  background-color: #433508;
+  background-color: #374F59;
   color: white;
-  font-weight: bold;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 button:hover {
-  background-color: #17861c;
+  background-color: #567a8a;
 }
 a {
   color: white;
